@@ -1,0 +1,51 @@
+
+Table: ai_recommendations
+Columns:
+id int AI PK 
+username varchar(50) 
+recommended_artwork_id int 
+reason text 
+created_at timestamp 
+recommended_artwork_title varchar(255) 
+artist varchar(255) 
+confidence_score decimal(5,2) 
+feedback enum('liked','disliked','none')
+
+Table: artists
+Columns:
+id int AI PK 
+username varchar(50) 
+name varchar(100) 
+bio text 
+email varchar(100) 
+profile_pic varchar(255) 
+created_at timestamp
+
+
+Table: artwork
+Columns:
+id int AI PK 
+artist_id int 
+title varchar(255) 
+medium varchar(100) 
+price decimal(10,2) 
+image varchar(255) 
+created_at timestamp
+
+Table: reviews
+Columns:
+id int AI PK 
+artist_name varchar(255) 
+review_text text 
+created_at timestamp 
+user_name varchar(255)
+
+
+Table: users
+Columns:
+id int AI PK 
+username varchar(50) 
+email varchar(100) 
+password varchar(255) 
+created_at timestamp 
+profile_pic varchar(255)
