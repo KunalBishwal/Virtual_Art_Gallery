@@ -2,6 +2,19 @@
 
 Virtual Art Gallery is a Java-based desktop application created with Swing for the graphical interface and MySQL as the database management system. This project is designed for showcasing and managing an art gallery's digital exhibits.
 
+## Table of Contents
+1. [Features](#features)
+2. [Requirements](#requirements)
+3. [Setup Instructions](#setup-instructions)
+   - [1. Clone the Repository](#1-clone-the-repository)
+   - [2. Configure Resource Paths](#2-configure-resource-paths)
+   - [3. Set Up API Keys](#3-set-up-api-keys)
+   - [4. Create MySQL Database and Tables](#4-create-mysql-database-and-tables)
+   - [5. Compile and Run](#5-compile-and-run)
+4. [Troubleshooting](#troubleshooting)
+5. [Screenshots](#screenshots)
+6. [License](#license)
+
 ## Features
 - **User-friendly Interface**: Built using Java Swing for a smooth and interactive user experience.
 - **Database Integration**: All artwork, user, and gallery data is stored and managed in a MySQL database.
@@ -34,15 +47,24 @@ Some functionalities require external APIs. Make sure to:
 ### 5. Compile and Run
 Open the project in NetBeans IDE and run it. Verify that all paths and database connections are correctly configured.
 
-### Troubleshooting
+## Troubleshooting
 1. **Resource Path Errors**: Check that all file paths for images and other resources are correctly set up.
 2. **API Errors**: Make sure API keys are valid and the required APIs are active.
 3. **Database Connectivity Issues**: Verify that the MySQL database is running and that your credentials are correctly set.
 
+## Screenshots
+Below are screenshots showcasing different parts of the Virtual Art Gallery application.
+
+### 1. Home Screen
+![Home Screen](screenshots/home_screen.png)
+
+### 2. Gallery Display
+![Gallery Display](screenshots/gallery_display.png)
+
+### 3. Artwork Details Page
+![Artwork Details](screenshots/artwork_details.png)
+
+> **Note**: Place your screenshots in a folder named `screenshots` within the project directory. Ensure that the paths in this `README.md` file match the folder structure.
+
 ## License
 This project is open for personal and educational use. Please refer to the LICENSE file for more information.
-
----
-
-This README file provides essential instructions for setting up and running the Virtual Art Gallery application. Follow each step carefully for a smooth experience.
-
