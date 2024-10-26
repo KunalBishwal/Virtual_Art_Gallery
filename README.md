@@ -56,13 +56,22 @@ Open the project in NetBeans IDE and run it. Verify that all paths and database 
 Below are screenshots showcasing different parts of the Virtual Art Gallery application.
 
 ### 1. Home Screen
-![Home Screen](screenshots/home_screen.png)
+<img src="screenshots/home_screen.png" alt="Home Screen" width="500"/>
 
-### 2. Gallery Display
-![Gallery Display](screenshots/gallery_display.png)
+### 2. Loading Screen
+<img src="screenshots/loading_screen.png" alt="Loading Screen" width="500"/>
 
 ### 3. Artwork Details Page
 ![Artwork Details](screenshots/artwork_details.png)
+
+### 2. Gallery Display
+<img src="screenshots/home_screen.png" alt="Home Screen" width="500"/>
+
+### 2. Gallery Display
+<img src="screenshots/home_screen.png" alt="Home Screen" width="500"/>
+
+### 2. Gallery Display
+<img src="screenshots/home_screen.png" alt="Home Screen" width="500"/>
 
 > **Note**: Place your screenshots in a folder named `screenshots` within the project directory. Ensure that the paths in this `README.md` file match the folder structure.
 
