@@ -55,11 +55,11 @@ Open the project in NetBeans IDE and run it. Verify that all paths and database 
 ## Screenshots
 Below are screenshots showcasing different parts of the Virtual Art Gallery application.
 
-### 1. Login Screen
-<img src="screenshots/login_screen.png" alt="Login Screen" width="450"/> 
-
-### 2. Home Screen
+### 1. Home Screen
 <img src="screenshots/home_screen.png" alt="Home Screen" width="450"/>
+
+### 2. Login Screen
+<img src="screenshots/login_screen.png" alt="Login Screen" width="450"/> 
 
 ### 3. Loading Screen
 <img src="screenshots/loading_screen.png" alt="Loading Screen" width="450"/>
