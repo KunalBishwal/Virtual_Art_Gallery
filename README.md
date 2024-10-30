@@ -1,6 +1,7 @@
 # Virtual Art Gallery
 
 Virtual Art Gallery is a Java-based desktop application created with Swing for the graphical interface and MySQL as the database management system. This project is designed for showcasing and managing an art gallery's digital exhibits.
+Research Paper is also available for this
 
 ## Table of Contents
 1. [Features](#features)
