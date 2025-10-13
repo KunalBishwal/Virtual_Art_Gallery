@@ -12,31 +12,28 @@ public class Home extends JFrame implements ActionListener {
     public Home(String username) {
         this.username = username;
 
-        // Initialize database connection
+
         conn = new Conn(); 
 
-        // Set layout and frame properties
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setLayout(new BorderLayout());
 
-        // Load background image using Toolkit
+
         Image img = Toolkit.getDefaultToolkit().getImage("src/resources1/gallery_bg.png");
         if (img == null) {
-            System.out.println("Image not found!");  // Log error message
-            setBackground(Color.GRAY);  // Set default background color
+            System.out.println("Image not found!"); 
+            setBackground(Color.GRAY); 
         } else {
             ImageIcon background = new ImageIcon(img);
             JLabel bgLabel = new JLabel(background);
-            bgLabel.setLayout(null); // Set layout to null for absolute positioning
+            bgLabel.setLayout(null); 
 
-            // Header label
             JLabel header = new JLabel("Virtual Art Gallery for Emerging Artists");
             header.setForeground(Color.WHITE);
             header.setFont(new Font("Serif", Font.BOLD, 50));
             header.setBounds(400, 50, 1200, 100);
             bgLabel.add(header);
 
-            // Add buttons for navigation
             JButton viewGallery = createModernButton("View Gallery");
             viewGallery.setBounds(400, 200, 300, 50);
             bgLabel.add(viewGallery);
@@ -67,17 +64,16 @@ public class Home extends JFrame implements ActionListener {
             hamburgerButton.setBounds(20, 20, 50, 50);
             bgLabel.add(hamburgerButton);
 
-            // Create and add GIF panel
-            JPanel gifPanel = createGifPanel(); // Create the GIF panel
-            gifPanel.setBounds(200, 800, 1200, 500); // Positioning of the GIF panel
+      
+            JPanel gifPanel = createGifPanel(); 
+            gifPanel.setBounds(200, 800, 1200, 500); 
             bgLabel.add(gifPanel);
 
-            // Add bgLabel to a JScrollPane
             JScrollPane scrollPane = new JScrollPane(bgLabel);
-            scrollPane.setPreferredSize(new Dimension(1920, 1080)); // Set preferred size for scrolling
-            scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER); // Hide horizontal scroll
-            scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED); // Show vertical scroll as needed
-            add(scrollPane, BorderLayout.CENTER); // Add scrollPane to the frame
+            scrollPane.setPreferredSize(new Dimension(1920, 1080)); 
+            scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER); 
+            scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED); 
+            add(scrollPane, BorderLayout.CENTER); 
         }
 
         // Final frame setup
